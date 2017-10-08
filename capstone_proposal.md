@@ -18,6 +18,8 @@ In this Capstone project I will create an agent for the Atari game Breakout, sin
 
 ![Breakout game](http://blogtectoy.com.br/wp-content/uploads/2017/08/Breakout_atari_2600.png)
 
+(Image from (http://blogtectoy.com.br/conheca-breakout-o-classico-jogo-desenvolvido-por-steve-jobs-para-atari/))
+
 ### Datasets and Inputs
 
 Reinforcement Learning problems generally does not employ external datasets and Breakout does not requires one. The input of the game, according to (https://gym.openai.com/envs/Breakout-v0/), is each frame that is drawn on the screen. Each image is an RGB image with 210 x 160 pixels, that can be mapped to an array of (210, 160, 3) dimensions. The actions is performed repeatedly for a duration of *k* frames.
